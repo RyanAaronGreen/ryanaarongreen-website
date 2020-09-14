@@ -1,0 +1,30 @@
+[
+  {
+    "name": "404",
+    "path": "/404",
+    "component": "/Users/ryangreen/dev/ryanaarongreenwebsite/pages/404.vue",
+    "chunkName": "pages/404",
+    "_name": "_6b668271"
+  },
+  {
+    "name": "About",
+    "path": "/About",
+    "component": "/Users/ryangreen/dev/ryanaarongreenwebsite/pages/About.vue",
+    "chunkName": "pages/About",
+    "_name": "_b180b434"
+  },
+  {
+    "name": "Work",
+    "path": "/Work",
+    "component": "/Users/ryangreen/dev/ryanaarongreenwebsite/pages/Work.vue",
+    "chunkName": "pages/Work",
+    "_name": "_b23a4270"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/ryangreen/dev/ryanaarongreenwebsite/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_4f8560cb"
+  }
+]
