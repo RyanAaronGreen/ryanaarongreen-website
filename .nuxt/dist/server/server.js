@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"pages/404","2":"pages/About","3":"pages/Work","4":"pages/index"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"pages/404","2":"pages/about","3":"pages/index","4":"pages/work"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -104,7 +104,7 @@ module.exports =
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/ryanaarongreen-website/_nuxt/";
+/******/ 	__webpack_require__.p = "/_nuxt/";
 /******/
 /******/ 	// uncaught error handler for webpack runtime
 /******/ 	__webpack_require__.oe = function(err) {
@@ -821,19 +821,23 @@ async function setContext(app, context) {
   // If context not defined, create it
   if (!app.context) {
     app.context = {
-      isStatic: true,
+      isStatic: false,
       isDev: false,
       isHMR: false,
       app,
       payload: context.payload,
       error: context.error,
-      base: '/ryanaarongreen-website/',
+      base: '/',
       env: {}
     }; // Only set once
 
-    if (false) {}
+    if ( true && context.req) {
+      app.context.req = context.req;
+    }
 
-    if (false) {}
+    if ( true && context.res) {
+      app.context.res = context.res;
+    }
 
     if (context.ssrContext) {
       app.context.ssrContext = context.ssrContext;
@@ -1445,11 +1449,11 @@ if (false) {}
 
 const _6b668271 = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 1).then(__webpack_require__.bind(null, 56)));
 
-const _b180b434 = () => interopDefault(__webpack_require__.e(/* import() | pages/About */ 2).then(__webpack_require__.bind(null, 57)));
+const _2fcd8606 = () => interopDefault(__webpack_require__.e(/* import() | pages/about */ 2).then(__webpack_require__.bind(null, 57)));
 
-const _b23a4270 = () => interopDefault(__webpack_require__.e(/* import() | pages/Work */ 3).then(__webpack_require__.bind(null, 58)));
+const _b9ef0ab0 = () => interopDefault(__webpack_require__.e(/* import() | pages/work */ 4).then(__webpack_require__.bind(null, 58)));
 
-const _4f8560cb = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 4).then(__webpack_require__.bind(null, 55))); // TODO: remove in Nuxt 3
+const _4f8560cb = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 3).then(__webpack_require__.bind(null, 55))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -1463,7 +1467,7 @@ external_vue_router_default.a.prototype.push = function push(location, onComplet
 external_vue_default.a.use(external_vue_router_default.a);
 const routerOptions = {
   mode: 'history',
-  base: decodeURI('/ryanaarongreen-website/'),
+  base: decodeURI('/'),
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior: router_scrollBehavior,
@@ -1472,13 +1476,13 @@ const routerOptions = {
     component: _6b668271,
     name: "404"
   }, {
-    path: "/About",
-    component: _b180b434,
-    name: "About"
+    path: "/about",
+    component: _2fcd8606,
+    name: "about"
   }, {
-    path: "/Work",
-    component: _b23a4270,
-    name: "Work"
+    path: "/work",
+    component: _b9ef0ab0,
+    name: "work"
   }, {
     path: "/",
     component: _4f8560cb,
@@ -2164,10 +2168,6 @@ const layouts = {
 
     isFetching() {
       return this.nbFetching > 0;
-    },
-
-    isPreview() {
-      return Boolean(this.$options.previewData);
     }
 
   },
@@ -2546,7 +2546,7 @@ const createNext = ssrContext => opts => {
 
   opts.query = Object(external_querystring_["stringify"])(opts.query);
   opts.path = opts.path + (opts.query ? '?' + opts.query : '');
-  const routerBase = '/ryanaarongreen-website/';
+  const routerBase = '/';
 
   if (!opts.path.startsWith('http') && routerBase !== '/' && !opts.path.startsWith(routerBase)) {
     opts.path = server_urlJoin(routerBase, opts.path);
@@ -2585,9 +2585,7 @@ const createNext = ssrContext => opts => {
     routePath: ''
   }; // Remove query from url is static target
 
-  if ( true && ssrContext.url) {
-    ssrContext.url = ssrContext.url.split('?')[0];
-  } // Public runtime config
+  if (false) {} // Public runtime config
 
 
   ssrContext.nuxt.config = ssrContext.runtimeConfig.public; // Create the app definition and the instance (created for each request)

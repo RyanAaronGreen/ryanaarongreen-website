@@ -2,16 +2,16 @@
   "entry": "server.js",
   "files": {
     "pages/404.js": "pages/404.js",
-    "pages/About.js": "pages/About.js",
-    "pages/Work.js": "pages/Work.js",
+    "pages/about.js": "pages/about.js",
     "pages/index.js": "pages/index.js",
+    "pages/work.js": "pages/work.js",
     "server.js": "server.js"
   },
   "maps": {
     "pages/404.js": "pages/404.js.map",
-    "pages/About.js": "pages/About.js.map",
-    "pages/Work.js": "pages/Work.js.map",
+    "pages/about.js": "pages/about.js.map",
     "pages/index.js": "pages/index.js.map",
+    "pages/work.js": "pages/work.js.map",
     "server.js": "server.js.map"
   }
 }

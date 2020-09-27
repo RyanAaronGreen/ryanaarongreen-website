@@ -4,8 +4,8 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _6b668271 = () => interopDefault(import('../pages/404.vue' /* webpackChunkName: "pages/404" */))
-const _b180b434 = () => interopDefault(import('../pages/About.vue' /* webpackChunkName: "pages/About" */))
-const _b23a4270 = () => interopDefault(import('../pages/Work.vue' /* webpackChunkName: "pages/Work" */))
+const _2fcd8606 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _b9ef0ab0 = () => interopDefault(import('../pages/work.vue' /* webpackChunkName: "pages/work" */))
 const _4f8560cb = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -19,7 +19,7 @@ Vue.use(Router)
 
 export const routerOptions = {
   mode: 'history',
-  base: decodeURI('/ryanaarongreen-website/'),
+  base: decodeURI('/'),
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,
@@ -29,13 +29,13 @@ export const routerOptions = {
     component: _6b668271,
     name: "404"
   }, {
-    path: "/About",
-    component: _b180b434,
-    name: "About"
+    path: "/about",
+    component: _2fcd8606,
+    name: "about"
   }, {
-    path: "/Work",
-    component: _b23a4270,
-    name: "Work"
+    path: "/work",
+    component: _b9ef0ab0,
+    name: "work"
   }, {
     path: "/",
     component: _4f8560cb,

@@ -7,18 +7,18 @@
     "_name": "_6b668271"
   },
   {
-    "name": "About",
-    "path": "/About",
-    "component": "/Users/ryangreen/dev/ryanaarongreenwebsite/pages/About.vue",
-    "chunkName": "pages/About",
-    "_name": "_b180b434"
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/ryangreen/dev/ryanaarongreenwebsite/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_2fcd8606"
   },
   {
-    "name": "Work",
-    "path": "/Work",
-    "component": "/Users/ryangreen/dev/ryanaarongreenwebsite/pages/Work.vue",
-    "chunkName": "pages/Work",
-    "_name": "_b23a4270"
+    "name": "work",
+    "path": "/work",
+    "component": "/Users/ryangreen/dev/ryanaarongreenwebsite/pages/work.vue",
+    "chunkName": "pages/work",
+    "_name": "_b9ef0ab0"
   },
   {
     "name": "index",
