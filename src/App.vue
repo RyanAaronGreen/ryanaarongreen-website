@@ -1,5 +1,8 @@
 <script setup>
+import { ref } from 'vue';
 import Logo from '@/Logo.vue';
+
+const toggle = ref(false);
 </script>
 
 <template>
