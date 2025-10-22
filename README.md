@@ -1,5 +1,4 @@
-# August Baby Landing Page
-This is the landing page for the August Baby website until the store starts up again.
+# Ryan Aaron Green Portfolio Website Landing Page
 
 ## Project Setup
 
