@@ -8,69 +8,69 @@ const logoContent =
 // Use absolute paths from project root for Vite
 const rawWebsites = [
   {
-    image: '../assets/images/work/work-august-baby.webp',
+    image: '/images/work/work-august-baby.webp',
     company: 'Personal Project',
     title: 'August Baby Boutique Shopify',
     link: 'https://augustbaby.co/',
   },
   {
-    image: '../assets/images/work/work-pinnacle.jpg',
+    image: '/images/work/work-pinnacle.jpg',
     company: 'Zipline Interactive Project',
     title: 'Pinnacle Investigations Site',
     link: 'https://pinnacleprof.com/',
   },
   {
-    image: '../assets/images/work/work-rescue.jpg',
+    image: '/images/work/work-rescue.jpg',
     company: 'Zipline Interactive Project',
     title: 'Rescue Pest Control Site',
     link: 'https://rescue.com/',
   },
   {
-    image: '../assets/images/work/work-neuvana.webp',
+    image: '/images/work/work-neuvana.webp',
     company: 'Symboliq Media Project',
     title: 'Neuvana eCommerce Integration',
     link: 'https://neuvanalife.com/',
   },
   {
-    image: '../assets/images/work/work-prodentmax.webp',
+    image: '/images/work/work-prodentmax.webp',
     company: 'Symboliq Media Project',
     title: 'Prodent Max',
     link: 'https://prodentmax.com/',
   },
   {
-    image: '../assets/images/work/work-bassford-remele.png',
+    image: '/images/work/work-bassford-remele.png',
     company: '14Four Project',
     title: 'Bassford Remele',
     link: 'https://www.bassford.com/',
   },
   {
-    image: '../assets/images/work/work-chewy-ht3.png',
+    image: '/images/work/work-chewy-ht3.png',
     company: '14Four Project',
     title: 'Quaker HT3 Promo Site',
   },
   {
-    image: '../assets/images/work/work-globalcu.jpg',
+    image: '/images/work/work-globalcu.jpg',
     company: 'Zipline Interactive Project',
     title: 'Global Credit Union',
   },
   {
-    image: '../assets/images/work/work-one1brands.png',
+    image: '/images/work/work-one1brands.png',
     company: '14Four Project',
     title: 'ONE Brands Shopify',
     link: 'https://one1brands.com/',
   },
   {
-    image: '../assets/images/work/work-smile.jpg',
+    image: '/images/work/work-smile.jpg',
     company: '14Four Project',
     title: 'Smile with Lays Microsite',
   },
   {
-    image: '../assets/images/work/work-nissinfoods.png',
+    image: '/images/work/work-nissinfoods.png',
     company: '14Four Project',
     title: 'Nissin Foods Fan Store',
   },
   {
-    image: '../assets/images/work/work-understanding-color.png',
+    image: '/images/work/work-understanding-color.png',
     company: 'Personal Project',
     title: 'Understanding Computer Color',
     link: 'https://ryanaarongreen.github.io/computer-color-study/',
@@ -137,84 +137,84 @@ const websites = rawWebsites.map((site) => ({
           <div class="col-12 col-sm-6 col-md-4">
             <img
               class="design-tile"
-              src="@/assets/images/design/design-mealmate.webp"
+              src="/images/design/design-mealmate.webp"
               alt=""
             />
           </div>
           <div class="col-12 col-sm-6 col-md-4">
             <img
               class="design-tile"
-              src="@/assets/images/design/design-august-baby.webp"
+              src="/images/design/design-august-baby.webp"
               alt=""
             />
           </div>
           <div class="col-12 col-sm-6 col-md-4">
             <img
               class="design-tile"
-              src="@/assets/images/design/design-jetpack.png"
+              src="/images/design/design-jetpack.png"
               alt=""
             />
           </div>
           <div class="col-12 col-sm-6 col-md-4">
             <img
               class="design-tile"
-              src="@/assets/images/design/design-playactivate.png"
+              src="/images/design/design-playactivate.png"
               alt=""
             />
           </div>
           <div class="col-12 col-sm-6 col-md-4">
             <img
               class="design-tile"
-              src="@/assets/images/design/design-lakewood.png"
+              src="/images/design/design-lakewood.png"
               alt=""
             />
           </div>
           <div class="col-12 col-sm-6 col-md-4">
             <img
               class="design-tile"
-              src="@/assets/images/design/design-reviewlocal.png"
+              src="/images/design/design-reviewlocal.png"
               alt=""
             />
           </div>
           <div class="col-12 col-sm-6 col-md-4">
             <img
               class="design-tile"
-              src="@/assets/images/design/design-talk-about-talking.png"
+              src="/images/design/design-talk-about-talking.png"
               alt=""
             />
           </div>
           <div class="col-12 col-sm-6 col-md-4">
             <img
               class="design-tile"
-              src="@/assets/images/design/design-littlethings.png"
+              src="/images/design/design-littlethings.png"
               alt=""
             />
           </div>
           <div class="col-12 col-sm-6 col-md-4">
             <img
               class="design-tile"
-              src="@/assets/images/design/design-housefly.png"
+              src="/images/design/design-housefly.png"
               alt=""
             />
           </div>
           <div class="col-12 col-sm-6 col-md-4">
             <img
               class="design-tile"
-              src="@/assets/images/design/design-monstermore.png"
+              src="/images/design/design-monstermore.png"
               alt=""
             />
           </div>
           <div class="col-12 col-sm-6 col-md-4">
             <img
               class="design-tile"
-              src="@/assets/images/design/design-health-insurance-zen.png"
+              src="/images/design/design-health-insurance-zen.png"
               alt=""
             />
           </div>
           <div class="col-12 col-sm-6 col-md-4">
             <img
               class="design-tile"
-              src="@/assets/images/design/design-retalent.png"
+              src="/images/design/design-retalent.png"
               alt=""
             />
           </div>
