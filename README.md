@@ -1,29 +1,20 @@
-# ryanaarongreen-website
+# August Baby Landing Page
+This is the landing page for the August Baby website until the store starts up again.
 
-## Project setup
-```
-npm install
-```
+## Project Setup
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+```sh
+pnpm install
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+### Compile and Hot-Reload for Development
+
+```sh
+pnpm dev
 ```
 
-### Run your tests
-```
-npm run test
-```
+### Compile and Minify for Production
 
-### Lints and fixes files
+```sh
+pnpm build
 ```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
